@@ -80,16 +80,42 @@
 # result = age >= 18 and gpa  > 3.6
 # print(result)
 
-# Decision Making
-Marks = int(input("Enter your marks: "))
-if Marks >= 40:
-    print("You passed the exams , Congratulation")
-elif Marks > 30:
-    print("You failed the unit, take a reseat")
+# # Decision Making
+# Marks = int(input("Enter your marks: "))
+# if Marks >= 40:
+#     print("You passed the exams , Congratulation")
+# elif Marks > 30:
+#     print("You failed the unit, take a reseat")
 
-else:
-    print("You failed the unit, take a repeat")
+# else:
+#     print("You failed the unit, take a repeat")
     
+# While Loop
+# from itertools import count
+
+
+# count = 0
+# while count <= 5:
+#     print(count)
+#     count = count + 1
+
+# Multiplication Table
+
+# number = int(input("Enter a number: "))
+
+# count = 1
+# while count <= 10:
+#     product = count * number
+#     print (number,"x",count,"=",product)
+#     count = count + 1
+
+# From 10 to 1
+number = int(input("Enter a number: "))
+count = 10
+while count >= 1:
+    product = number* count
+    print (number,"x",count,"=",product)
+    count = count -1
 
 
 
