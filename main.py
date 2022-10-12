@@ -110,12 +110,39 @@
 #     count = count + 1
 
 # From 10 to 1
-number = int(input("Enter a number: "))
-count = 10
-while count >= 1:
-    product = number* count
-    print (number,"x",count,"=",product)
-    count = count -1
+# number = int(input("Enter a number: "))
+# count = 10
+# while count >= 1:
+#     product = number* count
+#     print (number,"x",count,"=",product)
+#     count = count -1
+
+# break and continue    
+# for items in range (1,6):
+#     if items == 4:
+#         break
+#     print(items)
+
+# while True:
+#     number= float(input("Enter a number: "))
+#     if number<0:
+#         break
+#     print("You entered: " , number)
+
+# continue
+# for i in range(5):
+#     number= float(input("Enter a number: "))
+#     if number < 0:
+#         continue
+#     print(number)
+
+
+languages= ["Python","Java","C","Swift","C++"]
+for languages in languages:
+    if languages == "Swift" or languages == "C++" :
+        continue
+    print(languages)
+
 
 
 
