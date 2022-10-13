@@ -137,16 +137,44 @@
 #     print(number)
 
 
-languages= ["Python","Java","C","Swift","C++"]
-for languages in languages:
-    if languages == "Swift" or languages == "C++" :
-        continue
-    print(languages)
+# from tkinter import PROJECTING
 
 
+# languages= ["Python","Java","C","Swift","C++"]
+# for languages in languages:
+#     if languages == "Swift" or languages == "C++" :
+#         continue
+#     print(languages)
+
+# For Loop
+# A sequence in python is a collection of data
+
+# text = "Python"
+
+# for character in text:
+#   print(character)
+
+# language = ["German","English","Spanish"]
+
+# for language in language:
+#     print(language)
+
+# range in For Loop
+
+# for count in range (1,6):
+#     print(count)
 
 
+# number= int(input("Enter an integer: "))
+
+# for count in range(1,11):
+#     product = number *count
+#     print(number, "x", count ,"=" ,product)
 
 
+from unittest import result
 
-
+sum= 0
+for count in range (1,101):
+    sum= sum + count
+    print(sum)
