@@ -172,9 +172,86 @@
 #     print(number, "x", count ,"=" ,product)
 
 
-from unittest import result
+# from unittest import result
 
-sum= 0
-for count in range (1,101):
-    sum= sum + count
-    print(sum)
+# sum= 0
+# for count in range (1,101):
+#     sum= sum + count
+#     print(sum)
+
+# Pass Statement
+
+number = 5.5
+
+if number > 0.0:
+    pass 
+
+# Function in Python
+# Group of related statement that perform a  certain task
+# def greet():
+#     print("Hello")
+#     print("How do you do")
+
+# greet()
+# Python argument
+# def greet(name):
+#     print("Hello",name)
+#     print("How do you do?")
+# greet("Jack")   
+
+
+# def sum(n1,n2):
+#     result= n1 + n2
+#     print("The sum is: ", result)
+
+# n1= 5.5
+# n2= 6.7
+# sum(n1, n2)
+
+# return in python
+# def sum(n1,n2):
+#     result= n1 + n2
+#     return result
+
+# n1= 5.5
+# n2= 6.7
+# result=sum(n1, n2)
+# print("The sum is: ", result)
+
+# Length
+
+# marks = [55,60,69,40,50]
+
+# length = len(marks)
+# print("The length is :",length)
+
+# marks_sum = sum(marks)
+# print("The sum of the marks is: " ,marks_sum)
+
+# Function to find average marks
+
+def find_average_marks(marks):
+    sum_of_marks = sum(marks)
+    total_subject= len(marks)
+    average_marks= sum_of_marks / total_subject
+    return average_marks
+
+# Calculate the grade 
+def compute_grade(average_marks):
+    if average_marks > 80:
+        grade = 'A'
+    elif average_marks >= 60:
+        grade = 'B'
+    elif average_marks >= 50:
+        grade = 'C'
+    else:
+        grade = 'F'
+    return grade
+
+
+marks = [55,60,69,40,50]
+average_marks = find_average_marks(marks)
+print ("Your average marks is : " ,average_marks)
+
+grade = compute_grade(average_marks)
+print("Your grade is: " ,grade)
